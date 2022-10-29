@@ -22,7 +22,7 @@ class Quiz {
         ['What would you like to be called least?', {"A"=>"Ignorant", "B"=>"Cowardly", "C"=>"Selfish", "D"=>"Ordinary"}]
         ['When I am dead I want people to remember me as:', {"A"=>"The Good", "B"=>"The Great", "C"=>"The Wise", "D"=>"The Bold"}]
         ['If you could make a potion that would guarantee you one thing what would it be?', {"A"=>"Love", "B"=>"Glory", "C"=>"Wisdom", "D"=>"Power"}]
-        ['Four boxes are placed before you. Which would you try and open?', {"A"=>"The small pewter box", "B"=>"The ornate golden casket", "C"=>"The small tortoiseshell box", "D"=>"The gleaming jet black box"}]
+        ['Four boxes are placed before you. Which would you try to open?', {"A"=>"The small pewter box", "B"=>"The ornate golden casket", "C"=>"The small tortoiseshell box", "D"=>"The gleaming jet black box"}]
         ['You and two friends need to cross a bridge guarded by a river troll who insists on fighting one of you before he will let all of you pass. Do you:', {"A"=>"Suggest drawing lots to decide who will fight", "B"=>"Suggest all three of you should fight", "C"=>"Attempt to confuse the troll so you can pass without fighting", "D"=>"Volunteer to fight}]
         ['You enter an enchanted garden. What would you be most curious to examine first?', {"A"=>"The bubbling pool", "B"=>"The silver leafed tree", "C"=>"The fat red toadstools", "D"=>"The statue of an old wizard"}]
         ['Four goblets are placed before you, which do you drink?', {"A"=>"The foaming, frothing, silvery liquid that sparkles as though containing ground diamonds.", "B"=>"The smooth, thick, richly purple drink that gives off a delicious smell of chocolate and plums.	", "C"=>"The golden liquid so bright that it hurts the eye, and which makes sunspots dance all around the room.	", "D"=>"The mysterious black liquid that gleams like ink, and gives off fumes that make you see strange visions.	"}]
@@ -37,15 +37,15 @@ class Quiz {
                             
                                 
                                     
-let gryffindor_answers = ["Lion", "Bravery", "Stubborn", "Harry Potter or Hermione Granger", "Cowardly", "The Bold", "Glory", 
+let gryffindor_answers = ["Lion", "Bravery", "Stubborn", "Cowardly", "Harry Potter or Hermione Granger", "The Bold", "Glory", 
     "The ornate golden casket", "Volunteer to fight", "The statue of an old wizard", "The golden liquid so bright that it hurts the eye, and which makes sunspots dance all around the room", 
     "Superhuman strength", "The wide, sunny, grassy lane", "About Magical Creatures", "Praised"];
 
-let slytherin_answers = ["Snake", "Resourceful", "Manipulative", "Draco Malfoy", "Ordinary", "The Great", "Power", "The gleaming jet black box",]    
+let slytherin_answers = ["Snake", "Resourceful", "Manipulative", "Ordinary", "Draco Malfoy", "The Great", "Power", "The gleaming jet black box",]    
     "Suggest all three fight",  "The bubbling pool",  "The mysterious black liquid that gleams like ink, and gives off fumes that make you see strange visions", 
     "The power to change appearance", "The narrow, dark, lantern-lit alley", "Hexes and Jinxes", "Feared"];
     
-let ravenclaw_answers = ["Eagle", "Intelligence", "Dismissive", "Luna Lovegood", "Ignorant", "The Wise", "Wisdom", ]
+let ravenclaw_answers = ["Eagle", "Intelligence", "Dismissive", "Ignorant", "Luna Lovegood", "The Wise", "Wisdom", ]
     "The small pewter box",  "Attempt to confuse the troll so you can pass without fighting",  "The silver leafed tree",  
     "The foaming, frothing, silvery liquid that sparkles as though containing ground diamonds",  "The power to change the past", "
     The twisting, leaf-strewn path through the woods", "Transfiguration", "Imitated"];
