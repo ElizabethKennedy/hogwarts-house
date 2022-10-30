@@ -44,17 +44,6 @@ hogwarts_house_collection.each do |house|
       end
     end
 
-user_collection.each do |user|
-  score_size = (SecureRandom.random_number(5) + 1).floor
-  (1..score_size).each do |poke|
-    number_right = (SecureRandom.random_number(10) + 1).floor
-    score = Score.new(number_correct: number_right, user_id: user.id)
-    score.check_score_for_house_points()
-    score.save
-  end
-end
-
-
 
 
 
