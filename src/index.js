@@ -42,7 +42,7 @@ const questions = [
         ]
     },
     {
-        category: "least like to be called",
+        category: "least like",
         question: "What would you least like to be called?",
         answers: [
             {text: "Ignorant", score: 2},
@@ -135,7 +135,7 @@ const questions = [
         ]
     },
     {
-        category: "learning",
+        category: "which-subject",
         question: "what are you most looking forward to learning at Hogwarts?",
         answers: [
             {text: "Secrets About the Castle", score: 1},
@@ -154,4 +154,5 @@ const questions = [
             {text: "Praised", score: 4},
         ]
     }
-]
+];
+
