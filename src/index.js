@@ -1,12 +1,12 @@
 const questions = [
     {
-     category: "animal",   
-     question: "Pick your favorite animal of the choices:", 
+     category: "animal",
+     question: "Pick your favorite animal of the choices:",
      answers: [
-        {text: "Lion", score: 4 },
-        {text: "Snake", score: 3 },
-        {text: "Eagle", score: 2},
-        {text: "Badger", score: 1},
+        {text: "Lion", score: "Gryffindor" },
+        {text: "Snake", score: "Slytherin" },
+        {text: "Eagle", score: "Ravenclaw"},
+        {text: "Badger", score: "Hufflepuff",}
      ]
     },
       {
@@ -17,7 +17,7 @@ const questions = [
             {text: "Intelligence", score:2},
             {text:"Resourceful", score: 3},
             {text: "Loyal", score: 1},
-        ]  
+        ]
     },
     {
         category: "worst trait",
@@ -61,7 +61,7 @@ const questions = [
             {text: "The Bold", score: 4 },
         ]
      },
-     {  
+     {
          category: "potion",
          question: "If you could make a potion that could guarantee you one thing, what would it be?",
          answers: [
@@ -101,7 +101,7 @@ const questions = [
             {text: "The silver leafed tree", score: 2},
             {text: "The fat red toadstools", score: 1},
             {text: "The statue of an old wizard", score: 4},
-            
+
         ]
     },
     {
